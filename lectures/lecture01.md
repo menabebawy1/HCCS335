@@ -234,7 +234,7 @@ The keyword `auto` can be used to let the compiler determine the type:
 ```cpp
 int sum = 0;
 vector<int> numbers = {1, 2, 3, 4, 5};
-for( int num : numbers ) {
+for( auto num : numbers ) {
 	sum += num;
 }
 ```
